@@ -7,7 +7,7 @@ mouse.penup() # this line tells mouse turtle to pen up so it will not draw line 
 canvas=getcanvas() # the canvas is the area that the turtle is moving (the white background)
 CANVAS_WIDTH = canvas.winfo_width() # here we get canvas(screen) width
 CANVAS_HEIGHT = canvas.winfo_height() # here we get the canvas(screen) height
-
+colormode(255)
 ## This is called a class we gave it the name Cell, this class inherit a turtle
 ## Class properties are self.dx, self.dy, self.radiusadius
 class Cell(Turtle):
