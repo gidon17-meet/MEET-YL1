@@ -1,0 +1,12 @@
+x= {}
+i=0
+while i<3:
+	n=input("enter name  ")
+	x['name'] = n
+	m=input("enter age  ")
+	x['age'] = m
+	print(x)
+	i+=1
+
+
+
